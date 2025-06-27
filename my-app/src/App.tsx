@@ -1,8 +1,12 @@
-
+import { Header } from './Header/Header';
+import { GlobalStyles }  from './styles/GlobalStyles';
 
 function App() {
   return (
-    <h1>projeto</h1>
+    <>
+      <Header/>
+      <GlobalStyles/>
+    </>
   );
 }
 
