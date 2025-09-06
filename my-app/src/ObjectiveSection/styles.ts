@@ -9,7 +9,11 @@ export const Container = styled.div`
   border-radius: 8px;
   background-color: #f8f9fa;
   max-width: 1240px;
-  width: 100%;  
+  width: 100%; 
+  
+  h2{
+     align-items: center;
+  }
 `;
 
 export const Wrapper = styled.div`
